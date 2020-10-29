@@ -31,6 +31,29 @@ nav .nav-item {
     bottom: 6px;
 }
 
+.services {
+    height: 105px;
+    width: 105px;
+    background: black;
+    border: 5px white;
+    border-radius: 50%;
+    /*align-items: center;*/
+    /*position: relative;*/
+
+}
+
+.services {
+    /*position: absolute;*/
+    /*align-content: center;*/
+    /*vertical-align: center;*/
+    color: white;
+    font-weight: bold;
+}
+
+.services>p {
+    line-height: 105px;
+}
+
 @media screen and (min-width: 992px) {
     .sub-title {text-align: left;}
     hr {width: 100%;}
