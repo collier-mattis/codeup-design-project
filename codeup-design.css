@@ -35,27 +35,39 @@ nav .nav-item {
     height: 105px;
     width: 105px;
     background: black;
-    border: 5px white;
+    border: 5px solid white;
     border-radius: 50%;
     color: white;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
 
 }
 
 .circle {
     margin: 0 !important;
     padding: 0 !important;
+    /*display: flex;*/
+    /*justify-content: center;*/
 }
 
 .col-6 {
     margin: 0 !important;
     padding: 0 !important;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
+}
+
+.circles {
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: space-around;
+
 }
 
 .services>p {
-    line-height: 105px;
+    line-height: 95px;
 
 }
 
@@ -83,6 +95,7 @@ p {
     font-weight: bold;
     font-size: x-small;
     line-height:18px;
+    justify-content: flex-end;
 
 }
 
@@ -91,6 +104,7 @@ ul {
     list-style: none;
     padding: 0 !important;
     margin: 0 !important;
+    /*justify-content: flex-end;*/
 }
 
 li {
@@ -121,6 +135,12 @@ ul .col-sm-6 {
     }
 }
 
+@media screen and (max-width:992px) {
+    .last {
+        visibility: hidden;
+    }
+}
+
 .card-body>p {
     padding: 0 !important;
 }
@@ -130,3 +150,64 @@ ul .col-sm-6 {
 /*    height: auto;*/
 /*}*/
 
+.mr-3 {
+    width: 75px;
+    height: 75px;
+}
+
+.fa-twitter {
+    color: deepskyblue;
+}
+
+.last-tweet {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.featured-project {
+    font-size: 75%;
+    justify-content: flex-start;
+}
+
+.card-body {
+    background-color: #f0f0f0;
+}
+
+.card {
+    border: none;
+}
+
+/*.col-6 .col-sm-6 {*/
+/*    float: right;*/
+/*}*/
+
+.icon-float {
+    justify-content: flex-end;
+}
+
+.idk {
+    max-width: 105px;
+
+
+}
+
+hr {
+    border-style: double;
+}
+
+.services-1, .icon-1 {
+    background-color: #E6563B;
+}
+.services-2, .icon-2 {
+    background-color: #DEA03D;
+}
+.services-3, .icon-3 {
+    background-color: #7CB06C;
+}
+.services-4, .icon-4 {
+    background-color: #00ABA9;
+}
+
+.card-img-top {
+    border: 5px solid #E6E6E6;
+}
