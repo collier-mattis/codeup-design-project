@@ -94,8 +94,21 @@ ul {
 }
 
 li {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.main-row {
+    display:flex;
+}
+
+ul .col-sm-6 {
+    display: flex;
     justify-content: flex-end;
 }
+
+
 
 
 @media screen and (min-width: 992px) {
@@ -107,3 +120,8 @@ li {
         top: 5px;
     }
 }
+
+.card-body>p {
+    padding: 0 !important;
+}
+
