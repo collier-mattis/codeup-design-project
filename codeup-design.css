@@ -96,6 +96,7 @@ p {
     font-size: x-small;
     line-height:18px;
     justify-content: flex-end;
+    margin: 0 2px;
 
 }
 
@@ -210,4 +211,8 @@ hr {
 
 .card-img-top {
     border: 5px solid #E6E6E6;
+}
+
+.card {
+    margin-bottom: 50px;
 }
